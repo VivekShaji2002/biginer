@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body style="color: rgb(9, 10, 10);background-color: rgb(141, 141, 141);">
+    <div class="slider-container">
+      <div class="slider-track">
+        <div class="slider-slide" >Slide 1</div>
+        <div class="slider-slide">Slide 2</div>
+        <div class="slider-slide">Slide 3</div>
+         
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+    <style>
+      /* Reset default margin and padding */
+      body,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      .slider-container {
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .slider-track {
+        display: flex; /* Create a horizontal layout */
+        transition: transform 0.3s ease-in-out; /* Add smooth sliding animation */
+      }
+
+      .slider-slide {
+        min-width: 100%; /* Each slide occupies the entire container width */
+        flex-shrink: 0; /* Prevent slides from shrinking */
+        padding: 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+      }
+    </style>
+    <script>
+      const sliderTrack = document.querySelector(".slider-track");
+
+      let slideIndex = 0;
+
+      function slideNext() {
+        slideIndex = (slideIndex + 1) % sliderTrack.children.length;
+        updateSliderPosition();
+      }
+
+      function updateSliderPosition() {
+        const slideWidth = sliderTrack.clientWidth;
+        sliderTrack.style.transform = `translateX(-${
+          slideIndex * slideWidth
+        }px)`;
+      }
+
+      // Automatically slide every 3 seconds
+      setInterval(slideNext, 3000);
+
+      // Initial position update
+      updateSliderPosition();
+    </script>
+    <br>
+    <br>
+     <body>
+      
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+        </nav>
+      </div>
+      <div class="content">
+        <!-- Your main content goes here -->
+      </div>
+  
+      <style>
+        /* Reset default margin and padding */
+        body,
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+  
+        .sidebar {
+          width: 250px; /* Set the width of the sidebar */
+          height: 100vh; /* Set the height of the sidebar to full viewport height */
+          background-color: #333;
+          color: #fff;
+          padding-top: 20px;
+        }
+  
+        nav ul {
+          list-style: none;
+          padding: 0;
+        }
+  
+        nav li {
+          padding: 10px;
+        }
+  
+        nav a {
+          color: #fff;
+          text-decoration: none;
+        }
+  
+        .content {
+          margin-left: 250px; /* Add margin to the main content area to accommodate the sidebar */
+          padding: 20px;
+        }
+      </style>
+  </body>
+</html>
+<html>
+  <head>
+        
+  
+    <br>
+    <br>
+
+    <body style="color: rgb(237, 238, 240);background-color: rgb(0, 0, 0);">
+
+      <h1><center>Welcome Biginner'sworld.com</center></h1>
+
+     
+
+      <br />
+      <br>
+      <br>
+      <center><img src="C:\Users\VIVEK SHAJI\OneDrive\Desktop\biginer\istockphoto-1370076624-612x612.jpg" height="500px" width="900px"></center>
+        <br/>
+      <p>
+        The main point of giving someone a job is to hire an individual who
+        possesses the skills, qualifications, and abilities required to perform
+        a specific role within an organization. <br />When a company or employer
+        decides to hire someone, they are looking for candidates who can
+        contribute to the overall success of the company, help achieve its
+        goals, and contribute positively to the worne a job: <br />
+        <br />
+        <br />
+        <ul>
+        <marquee direction="left" scrollammount="1"><li>Skill Match: The candidate should have the necessary skills and
+        expertise to perform the tasks and responsibilities associated with the
+        job.<br />
+        This ensures that the individual can effectively contribute to the team
+        andk environment.<br />
+        Here are some key points to consider when giving someo company
+        objectives.</li></marquee> <br />
+        <br />
+        <br /><marquee direction="left" scrollammount="1"><li>Qualifications: The candidate's educational background, training,
+        certifications, and relevant experience should align with the
+        requirements of the job. <br />This ensures that the person is
+        adequately prepared for the role.</li></marquee><br />
+        <br />
+       
+        <br /><marquee direction="left" scrollammount="1"><li>Team Contribution: The individual's presence should add value to
+        the team dynamics and collaboration.<br />
+        A diverse range of skills and perspectives can enhance problem-solving
+        and creativity.</li></marquee>
+        <br />
+        <br />
+        
+        <br />
+        <marquee direction="left" scrollammount="1"><li> Professionalism and Attitude: Positive work ethics, <br />a strong work
+        ethic, good communication skills, and a willingness to learn and adapt
+        are crucial attributes.</li></marquee>
+        <br />
+        <br />
+        <br /><marquee direction="left" scrollammount="1"><li>Long-Term Potential: Employers often look for candidates who have
+        the potential to grow within the company and take on more
+        responsibilities in the future.<br />
+        Contribution to Company</li></marquee>
+        <br />
+        <br />
+        <br /><marquee direction="left" scrollammount="1"><li>Goals: The candidate's skills and role should directly or
+        indirectly contribute to the company's objectives, <br />whether that's
+        increasing revenue, improving customer satisfaction, or expanding market
+        share.</li></marquee>
+        <br />
+        <br />
+        </ul>
+       
+        
+         
+       
+        
+        
+        
+      </p>
+        
+            
+<br>
+<br>
+<br>
+<br>
+   
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #d1,
+    #d2 {
+      padding: 5px;
+      font-size: 18px;
+      text-align: center;
+      background-color: rgb(241, 232, 232); /* Corrected */
+      color: rgb(26, 24, 24); /* Corrected */
+      border-radius: 3px; /* Corrected */
+    }
+
+    #d2 {
+      padding: 50px;
+      display: none;
+    }
+  </style>
+  <script>
+    $(document).ready(function () {
+      $("#d1").click(function () {
+        $("#d2").slideDown(300); // Changed slideLeft to slideDown
+      });
+
+      $("#stop").click(function () {
+        $("#d2").stop();
+      });
+    });
+  </script>
+</head>
+<body>
+  <button id="stop">stop sliding.</button>
+  <div id="d1">click to slide down</div>
+  <br />
+  <div id="d2">It looks like you're interested in learning about jobs or job-related topics.<br>
+     Could you please provide more specific information or context about what you're looking for regarding jobs? <br>
+     Are you looking for job search tips, .........<br>
+     information about specific job roles, advice on job interviews, <br>
+     or something else related to jobs?<br>
+      The more details you provide, the better I can assist you.<br>
+      It's important to address the feelings and experiences of individuals who are currently unemployed or looking for work.<br>
+       Being jobless can have various impacts on a person's mental and emotional well-being.<br>
+        Here are some considerations and suggestions:
+
+      <li>Emotional Impact: Losing a job or facing long-term unemployment can lead to feelings of stress, anxiety, depression, and low self-esteem.<br>
+         It's natural to experience a range of emotions during this time.</li><br>
+         <br>
+      
+      <li>Maintaining Routine: Staying organized and maintaining a daily routine can help provide a sense of structure and purpose,<br>
+         even if you're not working.
+        <br> This includes setting regular wake-up times, planning daily tasks,<br>
+         and scheduling time for job searching and self-care.</li>
+      
+      <li>Self-Care: Taking care of your physical and mental well-being is crucial. <br>
+        Engage in activities you enjoy, exercise regularly, eat a balanced diet, get enough sleep, <br>
+        and consider practicing relaxation techniques like meditation or deep breathing.</li>
+      
+        <li>Networking: Stay connected with friends, family, and professional contacts. <br>
+          Networking can provide emotional support and potentially lead to job opportunities.</li>
+      
+          <li>Job Search Strategy: Approach your job search with a structured plan.<br>
+             Set goals for the number of applications you'll submit, update your resume and cover letter,<br>
+              and explore various job search platforms.</li>
+      
+            <li>Skill Enhancement: Use your time to learn new skills, take online courses, or engage in volunteering or freelance work.<br>
+               This can help keep your skills up-to-date and demonstrate your proactive approach to potential employers.</li>
+      
+              <li>Seek Professional Help: If feelings of anxiety, depression, or hopelessness persist, <br>
+                consider seeking support from a mental health professional.<br>
+                 They can offer coping strategies and provide guidance during challenging times.</li>
+      
+                <li>Focus on Achievements: Reflect on your past achievements and successes.<br>
+                   This can help boost your self-esteem and remind you of the value you bring to potential employers.</li>
+      
+                  <li> Stay Positive: Maintaining a positive mindset can be difficult but is essential.<br>
+                     Surround yourself with supportive people and engage in activities that uplift your spirits.</li>
+      
+                    <li>Set Realistic Goals: Understand that finding a job might take time, and setbacks are part of the process.<br>
+                       Set realistic expectations and celebrate small victories along the way.</li>
+      
+                      <li>Remember that everyone's experience is unique, and seeking professional guidance from career counselors,<br>
+                         job placement agencies, or mental health experts can provide tailored support during this challenging period.</li>
+      
+      
+                         <body>
+  
+
+  
+    
+                          <head>
+                            <style>
+                              /* Style for the button */
+                              .button-link {
+                                display: inline-block;
+                                padding: 10px 20px;
+                                font-size: 16px;
+                                text-align: center;
+                                background-color: #007bff;
+                                color: white;
+                                border: none;
+                                border-radius: 5px;
+                                cursor: pointer;
+                              }
+                            </style>
+                          </head>
+                          <center>
+                            <body style="color: aliceblue; background-color: rgb(34, 33, 33)">
+                              
+                        
+                              <button class="button-link" onclick="redirectToPage()">Next Page...</button>
+                        
+                              <script>
+                                // Function to redirect to the desired page
+                                function redirectToPage() {
+                                  window.location.href = "ggg.html"; // Replace with your actual URL
+                                }
+                              </script>
+                            </body>
+                          </center>
+                          
+                        
+                        </body>
+                        
+                        
+                        </body>
+                        
+      
+      
+      </div>
+  <!-- Removed extra <br> and '>' -->
+</body>
+
+<br>
+<br>
+
+      
+    </body>
+  </head>
+</html>
